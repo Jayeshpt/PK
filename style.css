@@ -1,0 +1,171 @@
+input[type=text], input[type=email], input[type=tel], select, textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   background-color: #cccccc;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+}
+#carouselExampleSlidesOnly {
+   position: relative;
+
+}
+.wrapper{
+   width: 90%;
+   margin: 0 auto;
+}
+
+#bg {
+   height: 80vh;
+}
+
+#logo {
+   position: absolute;
+   left: 15px;
+   top: 15px;
+   width: 20%;
+}
+
+.carousel-caption {
+   transform: translateY(-50%);
+   bottom: initial;
+   top: 50%;
+}
+
+div.carousel-caption h1 {
+   font-size: 60px;
+}
+
+div.carousel-caption p {
+   font-size: 14px
+}
+
+#second {
+   margin: 0 auto;
+   padding: 40px 0;
+}
+#second .row{
+   
+}
+
+#second hr {
+   background-color: red;
+}
+
+#second div.left {
+   padding: 20px;
+   border: 1px solid #777;
+   /* margin-right: 20px; */
+}
+
+#second div.right {
+   border: 1px solid #777;
+   padding: 20px;
+}
+#about{
+   padding-bottom: 30px;
+}
+.para {
+   font-size: 13px;
+   color: #777
+}
+#footer{
+   height: 500px;
+   background-color: #002633;
+   border-bottom: 1px solid #7697A2;
+}
+#footer .middle .content{
+   display: flex;
+}
+#footer div.right{
+      float: right;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px
+}
+#footer div.left{
+   float: left;
+   width: 50%;
+   margin-top: 6px;
+   padding: 20px
+}
+label{
+   color: #7697A2;
+}
+#footer button{
+   width: 100%;
+   margin: 20px 0;
+}
+
+.end{
+   background-color: #002633;
+   color: #7697A2;
+   text-align: center;
+   padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 767px) {
+   #second div.left{
+      margin-bottom: 20px;
+   }
+   #footer{
+      height: 800px;
+   }
+}
+
+
+
+
+
+@media all and (max-width: 576px) {
+   #bg{
+      height: 50vh;
+   }
+   #logo{
+      width: 50%;
+   }
+   .carousel-caption h1{
+      font-size: 30px;
+   }
+   .carousel-caption p{
+      font-size: 10px;
+   }
+}
+
+
+
+@media all and (max-width:576px) {
+   #second div.left{
+     width: 90%;
+      margin: 20px auto;
+   }
+   #second div.right{
+      width: 90%;
+      margin: 0 auto;
+ 
+    }
+    #about div.left{
+      margin: 20px 0;
+    }
+}
